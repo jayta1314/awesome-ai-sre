@@ -223,7 +223,7 @@ function buildNameCell(tool) {
   const hasOssIcon = fs.existsSync(path.join(__dirname, ICON_ASSETS.oss));
   const nameLink = `[${escapeMarkdown(tool.name)}](${tool.website})`;
   if (tool.open_source && hasOssIcon) {
-    return `${nameLink} <img alt="Open Source" src="${ICON_ASSETS.oss}" width="14" />`;
+    return `${nameLink}&nbsp;<img alt="Open Source" src="${ICON_ASSETS.oss}" width="14" />`;
   }
   return nameLink;
 }
