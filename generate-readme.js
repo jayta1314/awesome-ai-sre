@@ -264,7 +264,9 @@ function buildReadme(tools) {
 }
 
 function main() {
-  const files = getYamlFiles(TOOLS_DIR).sort((a, b) => a.localeCompare(b));
+  const files = getYamlFiles(TOOLS_DIR).sort((a, b) =>
+    a.localeCompare(b, 'en', { sensitivity: 'base' })
+  );
 
   const tools = files.map((filePath) => {
     const tool = parsePhase1Yaml(filePath);
@@ -272,7 +274,7 @@ function main() {
     return tool;
   });
 
-  tools.sort((a, b) => a.name.localeCompare(b.name));
+  tools.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
 
   const output = buildReadme(tools);
   fs.writeFileSync(README_PATH, output, 'utf8');
