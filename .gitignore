@@ -1,7 +1,7 @@
 # Local agent/skill artifacts
-.agents/
-skills-lock.json
-
+.agents/skills/*
+!.agents/skills/add-operate-company/
+!.agents/skills/add-operate-company/**
 # OS files
 .DS_Store
 
@@ -21,3 +21,5 @@ pnpm-debug.log*
 .idea/
 *.swp
 *.swo
+
+skills-lock.json

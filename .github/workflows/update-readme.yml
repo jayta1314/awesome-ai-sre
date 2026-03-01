@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Validate tool files
+        run: node scripts/validate-tools.js
+
       - name: Generate README
         run: node generate-readme.js
 
