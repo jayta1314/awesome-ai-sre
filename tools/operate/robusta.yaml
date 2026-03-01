@@ -4,8 +4,9 @@ summary: "Robusta's AI assistant empowers teams to troubleshoot Prometheus and K
 
 deployment:
   - hybrid
+  - on-prem
 
-open_source: true
+open_source: false
 
 features:
   - Detects Kubernetes issues automatically
