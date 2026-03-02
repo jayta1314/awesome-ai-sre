@@ -2,6 +2,11 @@ name: Deductive AI
 website: https://www.deductive.ai
 summary: "Deductive AI transforms your root-causing process by effortlessly understanding your entire codebase along with the telemetry data."
 
+tags:
+  - observability
+  - incident-response
+  - automation
+
 deployment:
   - saas
 

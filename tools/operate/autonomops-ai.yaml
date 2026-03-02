@@ -2,6 +2,12 @@ name: AutonomOps AI
 website: https://autonomops.ai
 summary: Autonomous operations platform that applies AI to improve SRE and incident management workflows.
 
+tags:
+  - infrastructure
+  - incident-response
+  - observability
+  - automation
+
 deployment:
   - saas
 

@@ -2,6 +2,12 @@ name: Edge Delta
 website: https://www.edgedelta.com/
 summary: Observability pipeline and AI analytics platform for processing telemetry at scale and accelerating incident investigation.
 
+tags:
+  - observability
+  - incident-response
+  - infrastructure
+  - cost-optimization
+
 deployment:
   - saas
 

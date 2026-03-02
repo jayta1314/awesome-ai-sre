@@ -2,6 +2,11 @@ name: Deeptrace
 website: https://deeptrace.com
 summary: "Automate and cut your on-call/debugging time in half with AI."
 
+tags:
+  - observability
+  - incident-response
+  - automation
+
 deployment:
   - saas
 

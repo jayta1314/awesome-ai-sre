@@ -2,6 +2,12 @@ name: Komodor
 website: https://komodor.com
 summary: "Komodor automatically detects, investigates and remediates complex issues to proactively reduce cloud costs, slash MTTR and vanquish TicketOps."
 
+tags:
+  - infrastructure
+  - incident-response
+  - cost-optimization
+  - automation
+
 deployment:
   - saas
 

@@ -2,6 +2,11 @@ name: Traversal
 website: https://traversal.com
 summary: "Traversal cuts through alert noise, surfaces root causes, and guides your team to remediation — so incidents get fixed in minutes, not hours."
 
+tags:
+  - incident-response
+  - infrastructure
+  - automation
+
 deployment:
   - saas
 

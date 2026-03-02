@@ -2,6 +2,11 @@ name: TierZero AI
 website: https://www.tierzero.ai
 summary: "TierZero&#x27;s AI agents investigate incidents, triage alerts, and fix production problems automatically — so your engineers can ship faster."
 
+tags:
+  - incident-response
+  - infrastructure
+  - automation
+
 deployment:
   - saas
 

@@ -2,6 +2,11 @@ name: Azure SRE Agent
 website: https://azure.microsoft.com/products/sre-agent
 summary: AI-powered reliability assistant for Azure that automates incident response, root-cause analysis, and mitigation workflows.
 
+tags:
+  - incident-response
+  - observability
+  - automation
+
 deployment:
   - saas
 
