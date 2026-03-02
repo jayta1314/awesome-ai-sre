@@ -11,6 +11,7 @@ Items with :green_heart: indicate open source projects.
 
 Jump to: [incident-response](#incident-response) | [ai-observability](#ai-observability) | [infrastructure](#infrastructure) | [cloud-costs](#cloud-costs)
 
+<a id="incident-response"></a>
 ### Incident Response (28)
 
 | Name | Summary | Deployment | Links |
@@ -46,6 +47,7 @@ Jump to: [incident-response](#incident-response) | [ai-observability](#ai-observ
 
 <p align="left"><a href="#tools">Back to top ↑</a></p>
 
+<a id="ai-observability"></a>
 ### AI Observability (14)
 
 | Name | Summary | Deployment | Links |
@@ -67,6 +69,7 @@ Jump to: [incident-response](#incident-response) | [ai-observability](#ai-observ
 
 <p align="left"><a href="#tools">Back to top ↑</a></p>
 
+<a id="infrastructure"></a>
 ### Infrastructure (19)
 
 | Name | Summary | Deployment | Links |
@@ -93,6 +96,7 @@ Jump to: [incident-response](#incident-response) | [ai-observability](#ai-observ
 
 <p align="left"><a href="#tools">Back to top ↑</a></p>
 
+<a id="cloud-costs"></a>
 ### Cloud Costs (1)
 
 | Name | Summary | Deployment | Links |

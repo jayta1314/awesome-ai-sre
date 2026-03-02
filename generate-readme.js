@@ -323,6 +323,7 @@ function buildReadme(tools) {
     if (!sectionTools || sectionTools.length === 0) continue;
 
     lines.push('');
+    lines.push(`<a id="${sectionName}"></a>`);
     const sectionTitle = TAG_LABELS.get(sectionName) || sectionName;
     lines.push(`### ${sectionTitle} (${sectionTools.length})`);
     lines.push('');
