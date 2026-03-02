@@ -3,9 +3,10 @@ website: https://logz.io
 summary: "Stop Chasing Alerts. Get Ahead of Problems with AI-Powered Observability."
 
 tags:
-  - ai-observability
+  - observability
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

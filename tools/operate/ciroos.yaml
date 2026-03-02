@@ -5,7 +5,8 @@ summary: "Ciroos transforms SRE with AI-driven automation, reducing toil, detect
 tags:
   - infrastructure
   - incident-response
-  - ai-observability
+  - observability
+  - automation
 
 deployment:
   - saas

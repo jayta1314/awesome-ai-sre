@@ -5,6 +5,7 @@ summary: "The immune system for your software. AI agents that continuously inves
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

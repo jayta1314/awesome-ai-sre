@@ -4,7 +4,8 @@ summary: AI-powered reliability assistant for Azure that automates incident resp
 
 tags:
   - incident-response
-  - ai-observability
+  - observability
+  - automation
 
 deployment:
   - saas

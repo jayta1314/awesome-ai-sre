@@ -3,10 +3,11 @@ website: https://www.observeinc.com
 summary: "Observe is a modern observability platform built on a streaming data lake, for faster search and correlation at lower cost."
 
 tags:
-  - ai-observability
+  - observability
   - incident-response
   - infrastructure
-  - cloud-costs
+  - cost-optimization
+  - automation
 
 deployment:
   - saas

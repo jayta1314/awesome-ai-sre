@@ -5,6 +5,7 @@ summary: "NOFire handles alerts, flags risky changes, turns incidents and tribal
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

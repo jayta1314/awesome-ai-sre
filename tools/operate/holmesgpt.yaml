@@ -5,7 +5,8 @@ summary: Open source AI SRE agent that iteratively investigates incidents using 
 tags:
   - infrastructure
   - incident-response
-  - ai-observability
+  - observability
+  - automation
 
 deployment:
   - hybrid

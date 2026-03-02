@@ -5,6 +5,7 @@ summary: "RunWhen is committed to simplifying troubleshooting for complex cloud 
 tags:
   - infrastructure
   - incident-response
+  - automation
 
 deployment:
   - saas

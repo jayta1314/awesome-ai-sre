@@ -22,15 +22,19 @@ const CANONICAL_DEPLOYMENTS = new Map([
 ]);
 const VALID_TAGS = new Set([
   "incident-response",
-  "ai-observability",
+  "observability",
+  "automation",
   "infrastructure",
-  "cloud-costs"
+  "cost-optimization",
+  "security"
 ]);
 const TAG_LABELS = new Map([
   ["incident-response", "Incident Response"],
-  ["ai-observability", "AI Observability"],
+  ["observability", "Observability"],
+  ["automation", "Automation"],
   ["infrastructure", "Infrastructure"],
-  ["cloud-costs", "Cloud Costs"]
+  ["cost-optimization", "Cost Optimization"],
+  ["security", "Security"]
 ]);
 const VALID_LINK_KEYS = new Set(['github', 'linkedin', 'x', 'producthunt']);
 
@@ -190,7 +194,7 @@ function validateTool(tool, filePath) {
   for (const tag of tool.tags) {
     if (!VALID_TAGS.has(tag)) {
       throw new Error(
-        `Invalid tag "${tag}" in ${filePath}. Allowed: incident-response, ai-observability, infrastructure, cloud-costs`
+        `Invalid tag "${tag}" in ${filePath}. Allowed: incident-response, observability, automation, infrastructure, cost-optimization, security`
       );
     }
   }
@@ -198,7 +202,7 @@ function validateTool(tool, filePath) {
   const normalizedTag = tool.tags[0];
   if (!VALID_TAGS.has(normalizedTag)) {
     throw new Error(
-      `Invalid primary tag "${normalizedTag}" in ${filePath}. Allowed: incident-response, ai-observability, infrastructure, cloud-costs`
+      `Invalid primary tag "${normalizedTag}" in ${filePath}. Allowed: incident-response, observability, automation, infrastructure, cost-optimization, security`
     );
   }
   tool.primaryTag = normalizedTag;
@@ -275,9 +279,11 @@ function buildNameCell(tool) {
 function buildReadme(tools) {
   const groups = new Map([
     ['incident-response', []],
-    ['ai-observability', []],
+    ['observability', []],
+    ['automation', []],
     ['infrastructure', []],
-    ['cloud-costs', []],
+    ['cost-optimization', []],
+    ['security', []],
     ['Other', []]
   ]);
 
@@ -289,10 +295,13 @@ function buildReadme(tools) {
     }
   }
 
-  const sectionOrder = ['incident-response', 'ai-observability', 'infrastructure', 'cloud-costs', 'Other'];
+  const sectionOrder = ['incident-response', 'observability', 'automation', 'infrastructure', 'cost-optimization', 'security', 'Other'];
   const jumpLinks = sectionOrder
     .filter((name) => groups.get(name).length > 0)
-    .map((name) => `[${name}](#${name.toLowerCase().replace(/[^a-z0-9-]/g, '-')})`)
+    .map((name) => {
+      const label = TAG_LABELS.get(name) || name;
+      return `[${label}](#${name.toLowerCase().replace(/[^a-z0-9-]/g, '-')})`;
+    })
     .join(' | ');
 
   const lines = [

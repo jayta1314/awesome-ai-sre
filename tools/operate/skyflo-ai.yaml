@@ -5,6 +5,7 @@ summary: "Skyflo is an open-source AI agent for DevOps and cloud operations. It 
 tags:
   - infrastructure
   - incident-response
+  - automation
 
 deployment:
   - hybrid

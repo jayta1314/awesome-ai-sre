@@ -4,8 +4,9 @@ summary: AIOps platform for event correlation, incident detection, and response 
 
 tags:
   - incident-response
-  - ai-observability
+  - observability
   - infrastructure
+  - automation
 
 deployment:
   - saas

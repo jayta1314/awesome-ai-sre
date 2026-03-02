@@ -5,6 +5,7 @@ summary: "K8sGPT is an AI-powered tool that helps diagnose and fix Kubernetes is
 tags:
   - infrastructure
   - incident-response
+  - automation
 
 deployment:
   - hybrid

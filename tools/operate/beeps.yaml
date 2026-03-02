@@ -5,6 +5,7 @@ summary: AI-powered operations assistant focused on helping teams handle alerts 
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

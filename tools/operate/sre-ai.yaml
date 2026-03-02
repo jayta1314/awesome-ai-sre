@@ -5,7 +5,8 @@ summary: "SRE.ai is the most advanced natural language DevOps platform, powering
 tags:
   - infrastructure
   - incident-response
-  - ai-observability
+  - observability
+  - automation
 
 deployment:
   - saas

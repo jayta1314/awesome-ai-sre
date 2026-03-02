@@ -5,6 +5,7 @@ summary: "incident.io is an all-in-one incident management platform unifying on-
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

@@ -5,6 +5,7 @@ summary: "AI on-call copilot for Slack that cuts MTTR by 75%. Reduce alert noise
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

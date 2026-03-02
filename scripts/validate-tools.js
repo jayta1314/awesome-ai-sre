@@ -18,7 +18,14 @@ const ALLOWED_TOP_LEVEL_KEYS = new Set([
   'links'
 ]);
 const ALLOWED_DEPLOYMENTS = new Set(['saas', 'on-prem', 'hybrid']);
-const ALLOWED_TAGS = new Set(['incident-response', 'ai-observability', 'infrastructure', 'cloud-costs']);
+const ALLOWED_TAGS = new Set([
+  'incident-response',
+  'observability',
+  'automation',
+  'infrastructure',
+  'cost-optimization',
+  'security'
+]);
 const ALLOWED_LINK_KEYS = new Set(['github', 'linkedin', 'x', 'producthunt']);
 const USER_AGENT = 'awesome-ai-sre-validator/1.0';
 const TIMEOUT_MS = 10000;
@@ -140,7 +147,7 @@ function validateTool(tool, filePath, errors) {
       const tag = String(t).trim().toLowerCase();
       if (!ALLOWED_TAGS.has(tag)) {
         errors.push(
-          `${base}: invalid tag "${t}" (allowed: incident-response, ai-observability, infrastructure, cloud-costs)`
+          `${base}: invalid tag "${t}" (allowed: incident-response, observability, automation, infrastructure, cost-optimization, security)`
         );
       }
     }

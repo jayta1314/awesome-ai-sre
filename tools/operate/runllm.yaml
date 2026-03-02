@@ -5,7 +5,8 @@ summary: "The AI SRE for mission-critical systems that delivers transparent inve
 tags:
   - infrastructure
   - incident-response
-  - ai-observability
+  - observability
+  - automation
 
 deployment:
   - saas

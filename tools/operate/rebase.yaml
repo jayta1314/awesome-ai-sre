@@ -5,6 +5,7 @@ summary: "Every company needs to become an AI company. Rebase is the infrastruct
 tags:
   - infrastructure
   - incident-response
+  - automation
 
 deployment:
   - saas

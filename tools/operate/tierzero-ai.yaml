@@ -5,6 +5,7 @@ summary: "TierZero&#x27;s AI agents investigate incidents, triage alerts, and fi
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

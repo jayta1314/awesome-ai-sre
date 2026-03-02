@@ -5,6 +5,7 @@ summary: Multi-agent automation platform that orchestrates AI workflows for oper
 tags:
   - infrastructure
   - incident-response
+  - automation
 
 deployment:
   - saas

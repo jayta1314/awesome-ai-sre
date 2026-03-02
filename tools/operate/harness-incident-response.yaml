@@ -4,8 +4,9 @@ summary: "Most incidents start with change—so why manage them in isolation? Le
 
 tags:
   - incident-response
-  - ai-observability
+  - observability
   - infrastructure
+  - automation
 
 deployment:
   - saas

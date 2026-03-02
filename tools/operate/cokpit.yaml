@@ -5,6 +5,7 @@ summary: "Cokpit scales with your needs — from startups to global enterprises.
 tags:
   - infrastructure
   - incident-response
+  - automation
 
 deployment:
   - saas

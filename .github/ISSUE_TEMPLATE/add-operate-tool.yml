@@ -38,7 +38,7 @@ body:
       description: Add one or more tags, one per line. The first tag decides README section.
       placeholder: |
         incident-response
-        ai-observability
+        observability
     validations:
       required: true
 
@@ -112,6 +112,6 @@ body:
     attributes:
       value: |
         Use one or more tags in YAML under `tags:`.
-        Allowed tag values: `incident-response`, `ai-observability`, `infrastructure`, `cloud-costs`.
+        Allowed tag values: `incident-response`, `observability`, `automation`, `infrastructure`, `cost-optimization`, `security`.
         The first tag controls where the tool is displayed in README.
         Use deployment values in YAML as: `saas`, `on-prem`, or `hybrid`.

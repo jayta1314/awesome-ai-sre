@@ -5,6 +5,7 @@ summary: "Robusta's AI assistant empowers teams to troubleshoot Prometheus and K
 tags:
   - infrastructure
   - incident-response
+  - automation
 
 deployment:
   - hybrid

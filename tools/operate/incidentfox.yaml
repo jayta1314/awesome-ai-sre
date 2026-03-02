@@ -5,6 +5,8 @@ summary: AI incident response platform designed to help teams investigate and re
 tags:
   - incident-response
   - infrastructure
+  - observability
+  - automation
 
 deployment:
   - saas

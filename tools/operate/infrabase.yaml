@@ -3,8 +3,9 @@ website: https://infrabase.co
 summary: "Infrabase scans code and organizational context to surface security gaps, cost spikes, and policy breaks before they ever hit your cloud."
 
 tags:
-  - cloud-costs
+  - cost-optimization
   - infrastructure
+  - security
 
 deployment:
   - saas

@@ -3,10 +3,10 @@ website: https://www.edgedelta.com/
 summary: Observability pipeline and AI analytics platform for processing telemetry at scale and accelerating incident investigation.
 
 tags:
-  - ai-observability
+  - observability
   - incident-response
   - infrastructure
-  - cloud-costs
+  - cost-optimization
 
 deployment:
   - saas

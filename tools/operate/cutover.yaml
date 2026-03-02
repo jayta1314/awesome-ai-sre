@@ -5,6 +5,7 @@ summary: "Cutover&#x27;s cloud-hosted Collaborative Automation platform connects
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

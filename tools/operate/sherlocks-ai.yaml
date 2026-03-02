@@ -5,6 +5,7 @@ summary: "Cut MTTR by 10x with AI SREs that investigate incidents 24/7, automate
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

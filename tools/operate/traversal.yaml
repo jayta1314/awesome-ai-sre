@@ -5,6 +5,7 @@ summary: "Traversal cuts through alert noise, surfaces root causes, and guides y
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

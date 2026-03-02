@@ -5,6 +5,7 @@ summary: AI platform for cloud and platform engineering workflows focused on rel
 tags:
   - infrastructure
   - incident-response
+  - automation
 
 deployment:
   - saas

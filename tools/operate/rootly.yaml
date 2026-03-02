@@ -5,6 +5,7 @@ summary: "The all-in-one incident management platform, including AI SRE agentsâ€
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

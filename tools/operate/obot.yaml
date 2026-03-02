@@ -5,6 +5,7 @@ summary: Open source agent platform for creating, running, and integrating auton
 tags:
   - infrastructure
   - incident-response
+  - automation
 
 deployment:
   - hybrid

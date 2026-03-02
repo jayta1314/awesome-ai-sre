@@ -5,6 +5,7 @@ summary: "Transform critical operations with PagerDuty&#039;s AI first Operation
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

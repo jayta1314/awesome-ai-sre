@@ -5,7 +5,8 @@ summary: Autonomous operations platform that applies AI to improve SRE and incid
 tags:
   - infrastructure
   - incident-response
-  - ai-observability
+  - observability
+  - automation
 
 deployment:
   - saas

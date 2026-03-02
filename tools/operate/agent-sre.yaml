@@ -5,7 +5,8 @@ summary: AgentSRE is built for enterprises that can’t afford downtime. A fleet
 tags:
   - infrastructure
   - incident-response
-  - cloud-costs
+  - cost-optimization
+  - automation
 
 deployment:
   - hybrid

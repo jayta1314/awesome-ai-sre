@@ -5,6 +5,7 @@ summary: "Resolve AI handles all alerts, performs root cause analysis, and troub
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

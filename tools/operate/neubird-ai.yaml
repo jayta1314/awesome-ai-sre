@@ -5,6 +5,7 @@ summary: "NeuBird AI&#039;s agentic AI SRE delivers autonomous incident resoluti
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

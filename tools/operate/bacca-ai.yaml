@@ -4,7 +4,8 @@ summary: "Cut downtime with AI SRE Tool. Automate monitoring, pinpoint root caus
 
 tags:
   - incident-response
-  - ai-observability
+  - observability
+  - automation
 
 deployment:
   - saas

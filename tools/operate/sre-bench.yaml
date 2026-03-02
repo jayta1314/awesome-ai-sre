@@ -3,8 +3,9 @@ website: https://srebench.com/
 summary: Evaluation and benchmarking platform for SRE agents and operational AI reliability workflows.
 
 tags:
-  - ai-observability
+  - observability
   - infrastructure
+  - automation
 
 deployment:
   - saas

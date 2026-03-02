@@ -3,8 +3,9 @@ website: https://sixta.ai
 summary: "AI-powered root cause analysis for database reliability"
 
 tags:
-  - ai-observability
+  - observability
   - incident-response
+  - automation
 
 deployment:
   - saas

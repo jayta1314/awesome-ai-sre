@@ -4,8 +4,9 @@ summary: Kubernetes IDE for cluster operations and troubleshooting with AI-assis
 
 tags:
   - incident-response
-  - ai-observability
+  - observability
   - infrastructure
+  - automation
 
 deployment:
   - hybrid

@@ -4,7 +4,8 @@ summary: "Lightrun&#039;s AI SRE that handles alerts, prevent issues early with 
 
 tags:
   - incident-response
-  - ai-observability
+  - observability
+  - infrastructure
 
 deployment:
   - saas

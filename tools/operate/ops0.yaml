@@ -5,7 +5,8 @@ summary: "ops0 automates how infrastructure is created, managed, and operated. T
 tags:
   - infrastructure
   - incident-response
-  - ai-observability
+  - observability
+  - automation
 
 deployment:
   - saas

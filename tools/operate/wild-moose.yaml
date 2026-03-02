@@ -5,6 +5,7 @@ summary: "Wild Moose helps developers solve production issues faster, kicking of
 tags:
   - incident-response
   - infrastructure
+  - automation
 
 deployment:
   - saas

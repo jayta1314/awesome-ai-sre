@@ -5,7 +5,7 @@ website: https://example.com
 summary: One-line summary of what the tool does.
 
 # Required: Exactly one tag for README grouping.
-# Allowed values: incident-response, ai-observability, infrastructure, cloud-costs
+# Allowed values: incident-response, observability, automation, infrastructure, cost-optimization, security
 # You can add multiple tags. The first tag controls where the tool appears in README.
 tags:
   - incident-response

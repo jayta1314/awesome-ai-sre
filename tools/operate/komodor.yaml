@@ -5,7 +5,8 @@ summary: "Komodor automatically detects, investigates and remediates complex iss
 tags:
   - infrastructure
   - incident-response
-  - cloud-costs
+  - cost-optimization
+  - automation
 
 deployment:
   - saas

@@ -5,6 +5,7 @@ summary: AI platform for engineering operations and incident response automation
 tags:
   - infrastructure
   - incident-response
+  - automation
 
 deployment:
   - saas
