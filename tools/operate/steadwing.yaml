@@ -1,0 +1,23 @@
+name: Steadwing
+website: https://www.steadwing.com
+
+summary: Autonomous on-call engineer that diagnoses and resolves production incidents.
+
+tags:
+  - incident-response
+  - automation
+
+deployment:
+  - saas
+
+open_source: false
+
+features:
+  - Correlates logs, metrics, traces, and code changes to find root cause and resolve incidents in under 5 minutes
+  - Supports 20+ widely used integrations for observability, logging, and alerting
+  - Autonomous PR generation and infrastructure remediation
+
+links:
+  linkedin: https://www.linkedin.com/company/steadwing
+  x: https://x.com/steadwing
+  producthunt: https://www.producthunt.com/products/steadwing
