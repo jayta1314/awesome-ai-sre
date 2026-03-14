@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-set -euo pipefail
-
-node generate-readme.js
-
-git add README.md
